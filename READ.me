@@ -1,0 +1,14 @@
+git log # checking commits and branch heads 
+git checkout status # Checks any uncommitted changes as well as which one are added
+git diff # To see differences of not added files
+git add . # To add all the files from current directory
+git commit -m "To commit changes"
+git push # To push to remote
+git reset # To un add all changes
+git reset --hard # Removes all unadded changes and points to latest commit
+git reset --soft  # === git reset Just points to the commit without removuing the changes
+git stash 
+git stash pop
+git reset --soft HEAD~4 # It will take you back 4 commits from HEAD but still keep the changes
+git reset --hard origin/main # Resets with the branch from remote
+git checkout commit-code # Takes you to commit
